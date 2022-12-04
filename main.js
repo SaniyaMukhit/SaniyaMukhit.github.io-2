@@ -11,12 +11,6 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 3000);
-  if (width > 900) {
-    width = width / 3;
-} else if (width > 600) {
-    width = width / 2;
-}
-
 }
 
 function scrollToTop() {
